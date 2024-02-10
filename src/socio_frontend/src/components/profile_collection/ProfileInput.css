@@ -1,0 +1,181 @@
+#form-container{
+    background-color: #000000;
+    height: 100vh;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-content{
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+#form1,#form2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#form-img{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#form-img > img{
+    height: 100%;
+}
+
+form{
+    border: solid 3px white;
+    border-radius: 10px;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-head{
+    color: #fc900f;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.error-msg{
+    width: 90%;
+    height: 5%;
+    color: red;
+}
+
+form > input{
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+    border: solid 0.5px #fc900f;
+    outline: none;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 1.5vw;
+}
+
+form > input:focus{
+    border-bottom: solid 5px #fc900f;
+}
+
+#next,#submit{
+    margin: 5%;
+    width: 50%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #fc900f;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.password-wrapper {
+    position: relative;
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+}
+
+.fa-eye,.fa-eye-slash{
+    color: white;
+    font-size: 1.5vw;
+}
+  
+.password-wrapper input {
+    width: 90%;
+    height: 100%;
+    border: solid 0.5px #fc900f;
+    outline: none;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 1.5vw;
+    padding-right: 30px;
+}
+  
+.password-wrapper .fa-eye, .password-wrapper .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
+  
+.password-wrapper input:focus {
+    border-bottom: solid 5px #fc900f;
+}
+  
+#personal-info{
+    border: solid 3px white;
+    width: 50%;
+    height: 70%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-pic-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px white;
+    width: 30%;
+    height: 100%;
+}
+
+#profile-pic-section img{
+    width: 100%;
+}
+
+#profile-rem-section{
+    border: solid 1px white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#file-input{
+    width: 60% !important;
+    height: 20%;
+}
+
+#file-photo{
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+#profile-rem-section > input, select{
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+    border: solid 0.5px #fc900f;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    outline: none;
+}
+
+#profile-rem-section > input:focus{
+    border-bottom: solid 5px #fc900f;
+}
+
+label > p{
+    color: #fc900f;
+    font-size: 1.5vw;
+}
+

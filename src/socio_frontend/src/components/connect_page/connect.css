@@ -1,0 +1,29 @@
+#connect-page{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#connect-content{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#connect-content #socio-logo{
+    height: 80%;
+}
+
+#connect-btn{
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #ff9c00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
